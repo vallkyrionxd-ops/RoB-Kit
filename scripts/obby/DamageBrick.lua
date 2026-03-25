@@ -56,6 +56,6 @@ end)
 brick.TouchEnded:Connect(function(hit)
     local character = hit.Parent
 
-    -- Remove this player from the debounce table so damage stops
+    -- Remove this player from the debounce table so damage stops.
     debounce[character.Name] = nil
 end)
